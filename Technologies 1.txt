@@ -1,0 +1,94 @@
+
+	__________________________________________
+
+	Production Support Engineer / Application Support Engineer
+	SQL, SQL Performance (Advanced)
+	Linux (Intermediate)
+	Unix Commands (Intermediate)
+	Shell Scripting (Basics)
+	Ticketing Tools (ServiceNow, JIRA)
+	Monitoring Tools (Splunk, Grafana)
+	Java, REST, Git (Intermediate)
+	Spring Security (Basics)
+	AWS (Basics)
+	Docker (Basics)
+	Log Analysis (Intermediate)
+	Networking, ITIL (Basics)
+	Kubernetes, Jenkins (Basics)
+	__________________________________________
+
+	Java Application Support Engineer
+	Java (Intermediate–Advanced)
+	Collections (Intermediate)
+	Exception Handling (Intermediate)
+	Multithreading (Basics)
+	Spring Boot (Intermediate)
+	SQL (Advanced)
+	Linux (Intermediate)
+	Unix Commands (Intermediate)
+	Shell Scripting (Basics)
+	REST API, Git, Maven (Intermediate)
+	ServiceNow, JIRA (Intermediate)
+	Splunk, Grafana (Intermediate)
+	Log Analysis (Intermediate)
+	JSON, HTTP Status Codes (Intermediate)
+	Spring Security (Basics)
+	JUnit (Basics)
+	Docker (Basics)
+	AWS (Basics)
+
+	_____________________________
+
+	SQL Developer
+	SQL (Advanced)
+	SQL Performance Tuning (Advanced)
+	Stored Procedures (Advanced)
+	Functions (Advanced)
+	Triggers (Intermediate)
+	Views (Intermediate)
+	Database Design (Intermediate)
+	Normalization (Intermediate)
+	ER Diagram (Intermediate)
+	Keys, Constraints (Intermediate)
+	Indexing (Advanced)
+	Query Optimization (Advanced)
+	Transactions (Intermediate)
+	Microsoft SQL Server (Advanced)
+	Backup & Restore (Basics)
+	Git (Basics)
+	Excel (Basics)
+	Linux (Basics)
+	_____________________________
+
+	Data Analyst
+	SQL, SQL Performance (Advanced)
+	Excel (Advanced)
+	Power BI (Intermediate)
+	DAX (Intermediate)
+	Python (Intermediate)
+	Pandas, NumPy (Intermediate)
+	Statistics (Intermediate)
+	Data Cleaning (Intermediate)
+	Data Visualization (Intermediate)
+	Business Analytics (Intermediate)
+	Dashboard Design (Intermediate)
+	Tableau, Git (Basics)
+	AWS (Basics)
+	__________________________________________
+
+	DevOps Support
+	SQL(Basics)
+	Linux (Advanced)
+	Unix Commands (Advanced)
+	shell scripting (Basics)
+	Ticketing tools (ServiceNow, JIRA)
+	Monitoring tools (splunk/Grafana)
+	JAVA,REST,GIT,GitHub (intermediate)
+	AWS(Basics)
+	CI/CD,Cloud
+	Docker(Basics)
+	Log Analysis(Practice)
+	Networking,ITIL(Basics)
+	Kubernetes,Jenkins(Basics)
+
+	__________________________________________
