@@ -1,0 +1,66 @@
+____________________________________________________________________________________________________________________________
+
+Core Java Fundamentals	OOP principles	Encapsulation, Inheritance, Polymorphism, Abstraction
+Core Java Fundamentals	Interfaces & Abstract Classes	Differences, usage
+Core Java Fundamentals	Collections Framework	List, Set, Map
+Core Java Fundamentals	Generics	Type safety, reusable code
+Core Java Fundamentals	Exception Handling	Try-catch, throws, custom exceptions
+Core Java Fundamentals	Streams & Lambda Expressions	Functional programming, stream pipeline
+Core Java Fundamentals	SOLID Principles	Single responsibility, Open-closed, etc.
+____________________________________________________________________________________________________________________________
+
+Spring Boot Basics	Introduction & Annotations	@SpringBootApplication, @RestController, @Service, @Repository, @Component
+Spring Boot Basics	Dependency Injection & IoC	Bean lifecycle
+Spring Boot Basics	Application Properties	Configuration usage
+Spring Boot Basics	Profiles	dev, test, prod
+Spring Boot Basics	Starter Dependencies	Auto-configurations
+____________________________________________________________________________________________________________________________
+
+REST APIs & MVC	REST APIs & MVC	Request handling flow
+REST APIs & MVC	Controllers	@GetMapping, @PostMapping, etc.
+REST APIs & MVC	Request Handling	@RequestBody, @PathVariable
+REST APIs & MVC	ResponseEntity	HTTP status codes
+REST APIs & MVC	Exception Handling	@ControllerAdvice, @ExceptionHandler
+REST APIs & MVC	Validation	JSR-303, @Valid, @NotNull, etc.
+____________________________________________________________________________________________________________________________
+
+Database & ORM	Database & ORM	Entity management
+Database & ORM	Entity Mapping	@Entity, @Id, @GeneratedValue
+Database & ORM	Relationships	One-to-One, One-to-Many, Many-to-Many
+Database & ORM	Querying	JPQL & Native Queries
+Database & ORM	Spring Data JPA	CrudRepository, JpaRepository
+Database & ORM	Transactions	@Transactional
+Database & ORM	Database Migration	Flyway/Liquibase basics
+____________________________________________________________________________________________________________________________
+
+Security & Authentication	Spring Security Basics	Authentication flows
+Security & Authentication	Authentication	Default & custom auth
+Security & Authentication	UserDetailsService	With PasswordEncoder
+Security & Authentication	JWT Authentication	Token generation, validation, filters
+Security & Authentication	Authorization	Role-based: @PreAuthorize, @Secured
+Security & Authentication	CORS & CSRF	Cross-origin & stateless configs
+____________________________________________________________________________________________________________________________
+
+Advanced Spring Boot	Spring AOP	Logging, transactions, security checks
+Advanced Spring Boot	Event-driven Programming	Application events, @EventListener, Domain events
+Advanced Spring Boot	Schedulers	@Scheduled with cron
+Advanced Spring Boot	Caching	@EnableCaching, @Cacheable, @CacheEvict
+Advanced Spring Boot	Logging	SLF4J, Logback, centralized logging
+____________________________________________________________________________________________________________________________
+
+Microservices	Architecture Basics	Microservices vs Monolith
+Microservices	Service Discovery	Eureka, @EnableDiscoveryClient
+Microservices	API Gateway	Spring Cloud Gateway, routing, filters
+Microservices	Feign Client	Inter-service communication
+Microservices	Circuit Breaker	Resilience4j
+Microservices	Spring Cloud Bus	Config changes across services
+Microservices	Config Server	Centralized Config Management
+____________________________________________________________________________________________________________________________
+
+Testing	JUnit & Mockito	Unit tests
+Testing	Web Layer Tests	@WebMvcTest, @MockBean
+Testing	Integration Testing	@SpringBootTest
+Testing	MockMvc & TestRestTemplate	REST API testing tools
+Testing	Database Testing	@DataJpaTest
+
+____________________________________________________________________________________________________________________________
