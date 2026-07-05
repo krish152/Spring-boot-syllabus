@@ -1,0 +1,147 @@
+Ioc
+DI
+Main class
+@SpringBootApplication
+@component
+@Autowired
+ApplicationContext
+@Bean
+Scope singleton, Prototype request Sess
+Property name, value, ref
+beanid, class, autowire, Primary, lazy
+constructor-arg value, ref. type, index,
+@Constructorproperties()
+@Entity
+@Id
+@Generated Value
+@Inheritance
+@Qualifier
+@service
+@Primary
+@RestController
+@GetMapping
+@Pattivariable
+@RequestParam
+LIST → ArrayList (order, duplicates, index)
+LIST HashSet (No-order, No duplicates)
+MAP key, value (key unique, value duplicate)
+Generics
+@RestControllerAdvice
+@ExceptionHandler
+Stream API →→ Filter, map, foreach, collect
+SOLID Principals
+@configuration
+@scoperations
+@ComponentScan
+@value
+AnnatationConfiguApplication Contexto
+ClasspathXml ApplicationContextCO
+@Configuration
+@EnableAuto Configuration
+Poto class
+JOBC springBoot
+veeallodan)
+JDBC Template
+application Properties
+XmlWeb Application Contextar
+AnnotationConfig WebApplication V
+FilesystemxMLApplicationContext
+HTTP Status codes
+Servlets Basics
+@modelAttributeπό
+DispatcherServlet
+Folder structure Basic
+Pom.xml structuretu
+MVN commands Basics
+mvn clean
+target folder deleted
+mvn validate
+check configured correctly
+mvn compile
+compile java source code
+mvn test Run all unit testn
+mvn Package
+Package Project into jor/war
+MVN verify ensure build is ready
+min install
+compile, test, maven repoim2
+MVN deploy
+uploads project to remote maven
+mvn site generate Project documentation
+MVNdean install clean target, compilatest
+MVN spring-boot: run Run springboot application
+BeanFactory
+Ioc container
+@Description
+@Repository
+Jaspar & JstL depedency
+MVC Basics
+REST & Stateless
+@Dependson
+@AnnotationConfigApplicationContext
+optional<> & objectProvider >
+@RequestScope
+@SessionScope
+@transient, @persistent, @Detached @Remove
+Jackson use, Path, Produce, consume
+Stateless & statefull & Axios
+ORM & JPA
+Find By Post Profile Containing()
+Aop @Before. @After, @After Throwing Retamin
+Authetication
+Filters
+Password encoder
+Authorization
+JDBCUser Details Manager
+Security Context
+Authentication Manager
+userdetails service
+userbetailseslandge
+Password Encoder
+Authentication Provider
+Security context Holder
+Authorization filter
+geitoni
+AbstractAuthentication processing filles
+Defaultlogin pageftenerating fites*
+sername Password acid,
+AuthenticationFilters
+avail
+Username Password AunthenationToken
+Provide Managerial
+noitestnettua
+authenticate()
+DauAuthentication Provider
+loadUserByllsername()
+browaa29
+In memory liser Details Manage
+Username Password AutheticationFilte
+Encoding, Encryption, Hashing
+Session CreationPolicy
+userpasswort, OAUTH, JAAS authentication
+Create Delegating fassured Encoder()
+Profile dev test, Prod, defaat
+req wreschannel Cccccany Request Orequiressecurer
+Exception Translation Filter
+Session types changesessid, neusession
+http, requirechannel()
+Authentication Entry Point
+authentication entrypoint
+http, exceptionHandling
+snstall
+http.sesion managementte
+@componem
+hoitanitasny
+SIF4j
+@Event Listener wan
+legout Snippit
+Security Context Holder
+CORS
+CSRF
+Granted Authority
+hos Authority()
+has Any Authority)
+deeesSO
+@Listener
+@EventListener
+GenericfilterBean
