@@ -1,9 +1,3 @@
-============================================================
-1. Production Support Engineer
-2. Application Support Engineer
-3. Java Application Support Engineer
-============================================================
-
 PHASE 1 — DATABASE
 ------------------------------------------------------------
 
@@ -656,37 +650,4 @@ BASICS ARE ENOUGH INITIALLY:
 • Docker
 • AWS
 • ITIL
-
-============================================================
-FINAL TARGET PROFILE
-============================================================
-
-TCS + SBI Banking Domain
-        +
-Production Support Experience
-        +
-Advanced SQL
-        +
-Linux
-        +
-Log Analysis
-        +
-REST API
-        +
-Java
-        +
-Spring Boot
-        +
-Git + Maven
-        +
-Monitoring
-        +
-Docker + AWS BasicsA
-
-        ↓
-
-PRODUCTION SUPPORT ENGINEER
-APPLICATION SUPPORT ENGINEER
-JAVA APPLICATION SUPPORT ENGINEER
-
 ============================================================
