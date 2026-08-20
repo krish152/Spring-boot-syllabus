@@ -1,39 +1,692 @@
-	__________________________________________
-	Production Support Engineer / Application Support Engineer
-	SQL, SQL Performance (Advanced)
-	Linux (Intermediate)
-	Unix Commands (Intermediate)
-	Shell Scripting (Basics)
-	Ticketing Tools (ServiceNow, JIRA)
-	Monitoring Tools (Splunk, Grafana)
-	Java, REST, Git (Intermediate)
-	Spring Security (Basics)
-	AWS (Basics)
-	Docker (Basics)
-	Log Analysis (Intermediate)
-	Networking, ITIL (Basics)
-	Kubernetes, Jenkins (Basics)
-	__________________________________________
-	Java Application Support Engineer
-	Java (Intermediate–Advanced)
-	Collections (Intermediate)
-	Exception Handling (Intermediate)
-	Multithreading (Basics)
-	Spring Boot (Intermediate)
-	SQL (Advanced)
-	Linux (Intermediate)
-	Unix Commands (Intermediate)
-	Shell Scripting (Basics)
-	REST API, Git, Maven (Intermediate)
-	ServiceNow, JIRA (Intermediate)
-	Splunk, Grafana (Intermediate)
-	Log Analysis (Intermediate)
-	JSON, HTTP Status Codes (Intermediate)
-	Spring Security (Basics)
-	JUnit (Basics)
-	_____________________________
-    ++ searching required things
-    ++ interview questions (PDF)
-	_____________________________
-	**********USA****************
-	_____________________________
+============================================================
+1. Production Support Engineer
+2. Application Support Engineer
+3. Java Application Support Engineer
+============================================================
+
+PHASE 1 — DATABASE
+------------------------------------------------------------
+
+1. SQL — ADVANCED
+   • SELECT, WHERE, DISTINCT
+   • ORDER BY, TOP
+   • NULL handling
+   • AND, OR, NOT
+   • IN, BETWEEN, LIKE
+   • CASE
+   • COALESCE / ISNULL
+   • String Functions
+   • Date Functions
+   • Numeric Functions
+   • INNER JOIN
+   • LEFT JOIN
+   • RIGHT JOIN
+   • FULL JOIN
+   • CROSS JOIN
+   • Self Join
+   • GROUP BY
+   • HAVING
+   • COUNT, SUM, AVG, MIN, MAX
+   • Subqueries
+   • Correlated Subqueries
+   • EXISTS / NOT EXISTS
+   • CTE
+   • Recursive CTE — Basics
+   • Window Functions
+   • ROW_NUMBER
+   • RANK
+   • DENSE_RANK
+   • LEAD / LAG
+   • PARTITION BY
+   • Views
+   • Stored Procedures
+   • Functions
+   • Temporary Tables
+   • Table Variables
+   • Transactions
+   • COMMIT / ROLLBACK
+   • ACID
+   • Isolation Levels
+
+2. SQL PERFORMANCE — ADVANCED
+   • Clustered Index
+   • Non-Clustered Index
+   • Composite Index
+   • Included Columns
+   • Index Seek vs Index Scan
+   • Execution Plans
+   • Table Scan
+   • Query Cost
+   • Statistics
+   • Locks
+   • Blocking
+   • Deadlocks
+   • Long-Running Queries
+   • Query Optimization
+   • Parameter Sniffing — Basics
+   • Performance Bottleneck Identification
+
+
+PHASE 2 — LINUX
+------------------------------------------------------------
+
+3. LINUX — INTERMEDIATE
+   • Linux File System
+   • pwd
+   • ls
+   • cd
+   • mkdir
+   • cp
+   • mv
+   • rm
+   • touch
+   • cat
+   • less
+   • more
+   • head
+   • tail
+   • grep
+   • find
+   • locate
+   • sort
+   • uniq
+   • cut
+   • wc
+   • chmod
+   • chown
+   • chgrp
+   • ps
+   • top
+   • kill
+   • jobs
+   • df
+   • du
+   • free
+   • systemctl
+   • service
+   • ping
+   • curl
+   • wget
+   • netstat / ss
+   • Application Logs
+   • System Logs
+
+4. UNIX COMMANDS — INTERMEDIATE
+   • File Management
+   • Process Management
+   • Permissions
+   • Environment Variables
+   • Pipes |
+   • Redirection >
+   • Append >>
+   • Wildcards
+   • grep
+   • awk
+   • sed
+   • cut
+   • sort
+   • uniq
+   • xargs
+
+
+PHASE 3 — SHELL
+------------------------------------------------------------
+
+5. SHELL SCRIPTING — BASICS
+   • Bash Basics
+   • Variables
+   • User Input
+   • if / else
+   • case
+   • for loop
+   • while loop
+   • Functions
+   • Command Line Arguments
+   • Exit Status
+   • $?
+   • File Checking
+   • String Handling
+   • Log Processing
+   • Cron Jobs
+
+   PRACTICE SCRIPTS:
+   • Server Status Check
+   • Disk Space Check
+   • Log Error Search
+   • Process Check
+   • Service Restart
+
+
+PHASE 4 — PRODUCTION SUPPORT
+------------------------------------------------------------
+
+6. PRODUCTION SUPPORT FUNDAMENTALS — INTERMEDIATE
+   • Development Environment
+   • Testing Environment
+   • UAT
+   • Production Environment
+   • L1 Support
+   • L2 Support
+   • L3 Support
+   • Incident Management
+   • Problem Management
+   • Change Management
+   • Service Request
+   • Incident Lifecycle
+   • Priority
+   • Severity
+   • SLA
+   • Escalation
+   • RCA
+   • 5 Why Analysis
+   • Corrective Action
+   • Preventive Action
+   • Deployment
+   • Validation
+   • Rollback
+   • Release Management
+
+7. SERVICENOW / JIRA — BASICS–INTERMEDIATE
+   • Create Incident
+   • Assign Ticket
+   • Priority
+   • Severity
+   • SLA
+   • Assignment Group
+   • Work Notes
+   • Comments
+   • Escalation
+   • Resolution
+   • Ticket Closure
+   • Change Request Basics
+
+
+PHASE 5 — LOGS & MONITORING
+------------------------------------------------------------
+
+8. LOG ANALYSIS — INTERMEDIATE
+   • Application Logs
+   • System Logs
+   • INFO
+   • DEBUG
+   • WARN
+   • ERROR
+   • Timestamp Analysis
+   • Request ID
+   • Transaction ID
+   • Thread
+   • Exception
+   • Stack Trace
+   • NullPointerException
+   • SQL Errors
+   • Connection Errors
+   • Timeout Errors
+   • Authentication Errors
+   • Authorization Errors
+   • OutOfMemoryError
+   • HTTP Errors
+   • Root Cause Analysis
+
+9. MONITORING — SPLUNK / GRAFANA — INTERMEDIATE
+
+   SPLUNK:
+   • Log Searching
+   • Time Range
+   • Filtering
+   • Keywords
+   • Fields
+   • Error Searching
+   • Basic SPL
+   • Alerts Basics
+   • Dashboard Basics
+
+   GRAFANA:
+   • Dashboard
+   • Panels
+   • Metrics
+   • CPU
+   • Memory
+   • Disk
+   • Application Health
+   • Alerts
+
+
+PHASE 6 — API
+------------------------------------------------------------
+
+10. REST API + POSTMAN — INTERMEDIATE
+   • API Basics
+   • HTTP
+   • HTTPS
+   • Request
+   • Response
+   • GET
+   • POST
+   • PUT
+   • PATCH
+   • DELETE
+   • Headers
+   • Parameters
+   • Query Parameters
+   • Path Variables
+   • Request Body
+   • JSON
+   • Authentication
+   • Authorization
+
+   HTTP STATUS CODES:
+   • 200
+   • 201
+   • 400
+   • 401
+   • 403
+   • 404
+   • 409
+   • 500
+   • 502
+   • 503
+
+   POSTMAN:
+   • Create Request
+   • Headers
+   • Body
+   • Authorization
+   • Environment Variables
+   • Basic Tests
+
+
+PHASE 7 — JAVA
+------------------------------------------------------------
+
+11. CORE JAVA — INTERMEDIATE–ADVANCED
+
+   JAVA BASICS:
+   • Variables
+   • Data Types
+   • Operators
+   • Conditions
+   • Loops
+   • Methods
+
+   OOP:
+   • Class
+   • Object
+   • Constructor
+   • Encapsulation
+   • Inheritance
+   • Polymorphism
+   • Abstraction
+   • Interface
+
+   IMPORTANT:
+   • String
+   • StringBuilder
+   • Arrays
+
+   COLLECTIONS:
+   • List
+   • ArrayList
+   • LinkedList
+   • Set
+   • HashSet
+   • Map
+   • HashMap
+
+   EXCEPTION HANDLING:
+   • try
+   • catch
+   • finally
+   • throw
+   • throws
+   • Custom Exceptions
+
+   JAVA 8:
+   • Lambda
+   • Functional Interfaces
+   • Stream API
+   • Optional
+
+   MULTITHREADING — BASICS:
+   • Thread
+   • Runnable
+   • ExecutorService
+   • Synchronization Basics
+
+
+PHASE 8 — SPRING BOOT
+------------------------------------------------------------
+
+12. SPRING BOOT — INTERMEDIATE
+
+   SPRING FUNDAMENTALS:
+   • IoC
+   • Dependency Injection
+   • Beans
+   • ApplicationContext
+   • Component
+   • Service
+   • Repository
+
+   SPRING BOOT:
+   • Spring Boot Basics
+   • Main Class
+   • Auto Configuration
+   • Configuration
+   • application.properties
+   • Profiles
+
+   REST:
+   • Controller
+   • @RequestMapping
+   • @GetMapping
+   • @PostMapping
+   • @PutMapping
+   • @DeleteMapping
+   • @RequestBody
+   • @PathVariable
+   • @RequestParam
+
+   DATABASE:
+   • JPA
+   • Entity
+   • Repository
+   • JpaRepository
+   • Relationships — Basics
+
+   APPLICATION:
+   • DTO
+   • Exception Handling
+   • Global Exception Handling
+   • Logging
+   • Actuator Basics
+
+
+PHASE 9 — BUILD & VERSION CONTROL
+------------------------------------------------------------
+
+13. MAVEN — BASICS–INTERMEDIATE
+   • Maven Basics
+   • pom.xml
+   • Dependencies
+   • Plugins
+   • Lifecycle
+   • clean
+   • compile
+   • test
+   • package
+   • install
+
+14. GIT / GITHUB — INTERMEDIATE
+   • clone
+   • status
+   • add
+   • commit
+   • push
+   • pull
+   • fetch
+   • branch
+   • merge
+   • checkout / switch
+   • stash
+   • log
+   • diff
+   • Conflict Resolution
+   • GitHub Repository
+   • Pull Request
+   • Merge
+
+
+PHASE 10 — SECURITY
+------------------------------------------------------------
+
+15. SPRING SECURITY — BASICS
+   • Authentication
+   • Authorization
+   • SecurityFilterChain
+   • AuthenticationManager
+   • UserDetails
+   • PasswordEncoder
+   • JWT Basics
+   • Access Token
+   • 401 Unauthorized
+   • 403 Forbidden
+
+
+PHASE 11 — CLOUD & CONTAINERS
+------------------------------------------------------------
+
+16. DOCKER — BASICS
+   • Docker Basics
+   • Image
+   • Container
+   • Dockerfile
+   • Build
+   • Run
+   • Port Mapping
+   • Environment Variables
+   • Volumes
+   • Networks
+   • Logs
+   • Docker Compose Basics
+
+   COMMANDS:
+   • docker build
+   • docker run
+   • docker ps
+   • docker stop
+   • docker start
+   • docker logs
+   • docker exec
+
+17. AWS — BASICS
+   • Cloud Basics
+   • EC2
+   • S3
+   • IAM
+   • CloudWatch
+   • VPC Basics
+   • Subnet Basics
+   • Security Groups
+   • Load Balancer Basics
+
+
+PHASE 12 — NETWORKING
+------------------------------------------------------------
+
+18. NETWORKING — BASICS–INTERMEDIATE
+   • IP Address
+   • Public IP
+   • Private IP
+   • DNS
+   • TCP/IP
+   • TCP vs UDP
+   • Ports
+   • HTTP/HTTPS
+   • SSH
+   • SSL/TLS Basics
+   • Firewall Basics
+   • Proxy
+   • Reverse Proxy
+   • Load Balancer
+
+
+PHASE 13 — REAL PRODUCTION SCENARIOS
+------------------------------------------------------------
+
+19. PRODUCTION SCENARIOS — STRONG PRACTICAL KNOWLEDGE
+
+   PRACTICE:
+   • Application Down
+   • API 500 Error
+   • API 401 Error
+   • API 403 Error
+   • Database Connection Failure
+   • Slow SQL Query
+   • High CPU
+   • High Memory
+   • Disk Full
+   • Payment Failure
+   • Scheduler Failure
+   • File Processing Failure
+   • Incorrect File Picked
+   • Deployment Failure
+   • Service Not Responding
+   • Timeout Issue
+   • Authentication Failure
+   • Database Deadlock
+   • Data Mismatch
+   • Application Slow
+
+   TROUBLESHOOTING FLOW:
+   Problem
+      ↓
+   Monitoring
+      ↓
+   Logs
+      ↓
+   Linux
+      ↓
+   SQL / Database
+      ↓
+   Application
+      ↓
+   Root Cause
+      ↓
+   Fix / Escalate
+      ↓
+   Validation
+      ↓
+   RCA
+
+
+PHASE 14 — INTERVIEW PREPARATION
+------------------------------------------------------------
+
+20. SQL INTERVIEW
+   • Concept Questions
+   • Query Writing
+   • Joins
+   • CTE
+   • Window Functions
+   • Performance
+   • Real-World Scenarios
+
+21. LINUX INTERVIEW
+   • Commands
+   • Processes
+   • Logs
+   • Disk
+   • Memory
+   • Permissions
+   • Troubleshooting
+
+22. JAVA INTERVIEW
+   • OOP
+   • Collections
+   • Exceptions
+   • Java 8
+   • Streams
+   • Multithreading
+
+23. SPRING BOOT INTERVIEW
+   • IoC
+   • DI
+   • Beans
+   • REST
+   • JPA
+   • Exception Handling
+   • Security
+   • JWT
+
+24. PRODUCTION SUPPORT INTERVIEW
+   • Incident
+   • SLA
+   • RCA
+   • Monitoring
+   • Troubleshooting
+   • Deployment
+   • Escalation
+   • Production Scenarios
+
+
+PHASE 15 — JOB APPLICATION
+------------------------------------------------------------
+
+25. JOB APPLICATIONS
+
+   TARGET ROLES:
+   • Production Support Engineer
+   • Application Support Engineer
+   • Java Application Support Engineer
+   • Java Production Support Engineer
+   • L2 Application Support
+   • Java Support Engineer
+   • Backend Support Engineer
+   • Technical Application Support
+   • Production Support – Java
+   • Application Support – Java
+   • SQL + Java Support
+
+============================================================
+PRIORITY
+============================================================
+
+MUST MASTER:
+• SQL
+• SQL Performance
+• Linux
+• Log Analysis
+• REST API
+• Core Java
+• Spring Boot
+• Production Scenarios
+
+GOOD INTERMEDIATE:
+• Unix
+• Production Support
+• ServiceNow / JIRA
+• Splunk / Grafana
+• Maven
+• Git
+• Networking
+
+BASICS ARE ENOUGH INITIALLY:
+• Shell Scripting
+• Spring Security
+• Docker
+• AWS
+• ITIL
+
+============================================================
+FINAL TARGET PROFILE
+============================================================
+
+TCS + SBI Banking Domain
+        +
+Production Support Experience
+        +
+Advanced SQL
+        +
+Linux
+        +
+Log Analysis
+        +
+REST API
+        +
+Java
+        +
+Spring Boot
+        +
+Git + Maven
+        +
+Monitoring
+        +
+Docker + AWS BasicsA
+
+        ↓
+
+PRODUCTION SUPPORT ENGINEER
+APPLICATION SUPPORT ENGINEER
+JAVA APPLICATION SUPPORT ENGINEER
+
+============================================================
