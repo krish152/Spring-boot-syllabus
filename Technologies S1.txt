@@ -622,32 +622,6 @@ PHASE 15 — JOB APPLICATION
    • SQL + Java Support
 
 ============================================================
-PRIORITY
+PRIORITY --> CREATE RESUME & INTERVIEW QUESTIONS PDF
 ============================================================
 
-MUST MASTER:
-• SQL
-• SQL Performance
-• Linux
-• Log Analysis
-• REST API
-• Core Java
-• Spring Boot
-• Production Scenarios
-
-GOOD INTERMEDIATE:
-• Unix
-• Production Support
-• ServiceNow / JIRA
-• Splunk / Grafana
-• Maven
-• Git
-• Networking
-
-BASICS ARE ENOUGH INITIALLY:
-• Shell Scripting
-• Spring Security
-• Docker
-• AWS
-• ITIL
-============================================================
