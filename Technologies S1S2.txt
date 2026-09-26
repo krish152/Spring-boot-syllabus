@@ -1,3 +1,4 @@
+-----------------------------------------------------------
 PHASE 1 — DATABASE
 -----------------------------------------------------------
 
@@ -42,6 +43,7 @@ PHASE 1 — DATABASE
    • ACID
    • Isolation Levels
 
+
 2. SQL PERFORMANCE — ADVANCED
    • Clustered Index
    • Non-Clustered Index
@@ -61,8 +63,9 @@ PHASE 1 — DATABASE
    • Performance Bottleneck Identification
 
 
+-----------------------------------------------------------
 PHASE 2 — LINUX
-------------------------------------------------------------
+-----------------------------------------------------------
 
 3. LINUX — INTERMEDIATE
    • Linux File System
@@ -105,6 +108,7 @@ PHASE 2 — LINUX
    • Application Logs
    • System Logs
 
+
 4. UNIX COMMANDS — INTERMEDIATE
    • File Management
    • Process Management
@@ -123,8 +127,9 @@ PHASE 2 — LINUX
    • xargs
 
 
+-----------------------------------------------------------
 PHASE 3 — SHELL
-------------------------------------------------------------
+-----------------------------------------------------------
 
 5. SHELL SCRIPTING — BASICS
    • Bash Basics
@@ -151,8 +156,9 @@ PHASE 3 — SHELL
    • Service Restart
 
 
+-----------------------------------------------------------
 PHASE 4 — PRODUCTION SUPPORT
-------------------------------------------------------------
+-----------------------------------------------------------
 
 6. PRODUCTION SUPPORT FUNDAMENTALS — INTERMEDIATE
    • Development Environment
@@ -180,23 +186,34 @@ PHASE 4 — PRODUCTION SUPPORT
    • Rollback
    • Release Management
 
-7. SERVICENOW / JIRA — BASICS–INTERMEDIATE
-   • Create Incident
-   • Assign Ticket
-   • Priority
-   • Severity
-   • SLA
-   • Assignment Group
-   • Work Notes
-   • Comments
-   • Escalation
-   • Resolution
-   • Ticket Closure
-   • Change Request Basics
 
+7. PRODUCTION SCENARIOS — STRONG PRACTICAL KNOWLEDGE
 
+   PRACTICE:
+   • Application Down
+   • API 500 Error
+   • API 401 Error
+   • API 403 Error
+   • Database Connection Failure
+   • Slow SQL Query
+   • High CPU
+   • High Memory
+   • Disk Full
+   • Payment Failure
+   • Scheduler Failure
+   • File Processing Failure
+   • Incorrect File Picked
+   • Deployment Failure
+   • Service Not Responding
+   • Timeout Issue
+   • Authentication Failure
+   • Database Deadlock
+   • Data Mismatch
+   • Application Slow
+
+-----------------------------------------------------------
 PHASE 5 — LOGS & MONITORING
-------------------------------------------------------------
+-----------------------------------------------------------
 
 8. LOG ANALYSIS — INTERMEDIATE
    • Application Logs
@@ -221,32 +238,9 @@ PHASE 5 — LOGS & MONITORING
    • HTTP Errors
    • Root Cause Analysis
 
-9. MONITORING — SPLUNK / GRAFANA — INTERMEDIATE
-
-   SPLUNK:
-   • Log Searching
-   • Time Range
-   • Filtering
-   • Keywords
-   • Fields
-   • Error Searching
-   • Basic SPL
-   • Alerts Basics
-   • Dashboard Basics
-
-   GRAFANA:
-   • Dashboard
-   • Panels
-   • Metrics
-   • CPU
-   • Memory
-   • Disk
-   • Application Health
-   • Alerts
-
-
+-----------------------------------------------------------
 PHASE 6 — API
-------------------------------------------------------------
+-----------------------------------------------------------
 
 10. REST API + POSTMAN — INTERMEDIATE
    • API Basics
@@ -289,8 +283,9 @@ PHASE 6 — API
    • Basic Tests
 
 
-PHASE 7 — JAVA
-------------------------------------------------------------
+-----------------------------------------------------------
+PHASE 7 — CORE JAVA
+-----------------------------------------------------------
 
 11. CORE JAVA — INTERMEDIATE–ADVANCED
 
@@ -346,9 +341,17 @@ PHASE 7 — JAVA
    • ExecutorService
    • Synchronization Basics
 
+   DEVELOPMENT PRACTICE:
+   • Write Java programs daily
+   • Collections-based problems
+   • Exception handling problems
+   • Stream API problems
+   • Basic coding/DSA
 
+
+-----------------------------------------------------------
 PHASE 8 — SPRING BOOT
-------------------------------------------------------------
+-----------------------------------------------------------
 
 12. SPRING BOOT — INTERMEDIATE
 
@@ -394,9 +397,19 @@ PHASE 8 — SPRING BOOT
    • Logging
    • Actuator Basics
 
+   DEVELOPMENT PRACTICE:
+   • Build REST APIs
+   • Connect Spring Boot with SQL
+   • CRUD Operations
+   • DTO-based API
+   • Global Exception Handling
+   • Logging
+   • Test APIs using Postman
 
+
+-----------------------------------------------------------
 PHASE 9 — BUILD & VERSION CONTROL
-------------------------------------------------------------
+-----------------------------------------------------------
 
 13. MAVEN — BASICS–INTERMEDIATE
    • Maven Basics
@@ -409,6 +422,7 @@ PHASE 9 — BUILD & VERSION CONTROL
    • test
    • package
    • install
+
 
 14. GIT / GITHUB — INTERMEDIATE
    • clone
@@ -430,64 +444,132 @@ PHASE 9 — BUILD & VERSION CONTROL
    • Merge
 
 
+-----------------------------------------------------------
 PHASE 10 — SECURITY
-------------------------------------------------------------
+-----------------------------------------------------------
 
-15. SPRING SECURITY — BASICS
+15. SPRING SECURITY — INTERMEDIATE
+
    • Authentication
    • Authorization
    • SecurityFilterChain
    • AuthenticationManager
    • UserDetails
+   • UserDetailsService
    • PasswordEncoder
-   • JWT Basics
+   • BCrypt
+   • JWT
+   • JWT Filter
    • Access Token
+   • Token Expiration
    • 401 Unauthorized
    • 403 Forbidden
 
+   PRACTICE:
+   • Secure REST APIs
+   • Login API
+   • JWT generation
+   • JWT validation
+   • Role-based authorization
 
-PHASE 11 — CLOUD & CONTAINERS
-------------------------------------------------------------
+-----------------------------------------------------------
+SPRINGBOOT SECURITY PROJECT
+-----------------------------------------------------------
 
-16. DOCKER — BASICS
-   • Docker Basics
-   • Image
-   • Container
-   • Dockerfile
-   • Build
-   • Run
-   • Port Mapping
-   • Environment Variables
-   • Volumes
-   • Networks
-   • Logs
-   • Docker Compose Basics
+JAVA SPRING BOOT PROJECT — IMPORTANT
 
-   COMMANDS:
-   • docker build
-   • docker run
-   • docker ps
-   • docker stop
-   • docker start
-   • docker logs
-   • docker exec
+   PROJECT:
+   • Banking / Payment Management System
 
-17. AWS — BASICS
-   • Cloud Basics
-   • EC2
-   • S3
-   • IAM
-   • CloudWatch
-   • VPC Basics
-   • Subnet Basics
-   • Security Groups
-   • Load Balancer Basics
+   FEATURES:
+   • User Registration
+   • User Login
+   • JWT Authentication
+   • Create Payment
+   • Validate Payment
+   • Store Transaction
+   • Payment Status
+   • Transaction History
+
+   TECHNOLOGIES:
+   • Java
+   • Spring Boot
+   • Spring Data JPA
+   • SQL Server / MySQL
+   • REST API
+   • Spring Security
+   • JWT
+   • Maven
+   • Git / GitHub
+   • Postman
+
+   PROJECT PRACTICE:
+   • Create proper folder structure
+   • Controller
+   • Service
+   • Repository
+   • Entity
+   • DTO
+   • Exception Handling
+   • Logging
+   • Database Integration
+   • Authentication
+   • Authorization
+   • API Testing
+   • GitHub Repository
+
+-----------------------------------------------------------
+PHASE 1 — PRODUCTION SUPPORT TOOLS
+-----------------------------------------------------------
+
+SERVICENOW / JIRA — BASICS–INTERMEDIATE
+   • Create Incident
+   • Assign Ticket
+   • Priority
+   • Severity
+   • SLA
+   • Assignment Group
+   • Work Notes
+   • Comments
+   • Escalation
+   • Resolution
+   • Ticket Closure
+   • Change Request Basics
 
 
-PHASE 12 — NETWORKING
-------------------------------------------------------------
+-----------------------------------------------------------
+PHASE 2 — MONITORING
+-----------------------------------------------------------
 
-18. NETWORKING — BASICS–INTERMEDIATE
+MONITORING — SPLUNK / GRAFANA — INTERMEDIATE
+
+   SPLUNK:
+   • Log Searching
+   • Time Range
+   • Filtering
+   • Keywords
+   • Fields
+   • Error Searching
+   • Basic SPL
+   • Alerts Basics
+   • Dashboard Basics
+
+   GRAFANA:
+   • Dashboard
+   • Panels
+   • Metrics
+   • CPU
+   • Memory
+   • Disk
+   • Application Health
+   • Alerts
+
+
+-----------------------------------------------------------
+PHASE 3 — NETWORKING
+-----------------------------------------------------------
+
+NETWORKING — BASICS–INTERMEDIATE
    • IP Address
    • Public IP
    • Private IP
@@ -504,124 +586,33 @@ PHASE 12 — NETWORKING
    • Load Balancer
 
 
-PHASE 13 — REAL PRODUCTION SCENARIOS
-------------------------------------------------------------
+-----------------------------------------------------------
+PHASE 4 — DOCKER
+-----------------------------------------------------------
 
-19. PRODUCTION SCENARIOS — STRONG PRACTICAL KNOWLEDGE
-
-   PRACTICE:
-   • Application Down
-   • API 500 Error
-   • API 401 Error
-   • API 403 Error
-   • Database Connection Failure
-   • Slow SQL Query
-   • High CPU
-   • High Memory
-   • Disk Full
-   • Payment Failure
-   • Scheduler Failure
-   • File Processing Failure
-   • Incorrect File Picked
-   • Deployment Failure
-   • Service Not Responding
-   • Timeout Issue
-   • Authentication Failure
-   • Database Deadlock
-   • Data Mismatch
-   • Application Slow
-
-   TROUBLESHOOTING FLOW:
-   Problem
-      ↓
-   Monitoring
-      ↓
-   Logs
-      ↓
-   Linux
-      ↓
-   SQL / Database
-      ↓
-   Application
-      ↓
-   Root Cause
-      ↓
-   Fix / Escalate
-      ↓
-   Validation
-      ↓
-   RCA
-
-
-PHASE 14 — INTERVIEW PREPARATION
-------------------------------------------------------------
-
-20. SQL INTERVIEW
-   • Concept Questions
-   • Query Writing
-   • Joins
-   • CTE
-   • Window Functions
-   • Performance
-   • Real-World Scenarios
-
-21. LINUX INTERVIEW
-   • Commands
-   • Processes
+DOCKER — BASICS
+   • Docker Basics
+   • Image
+   • Container
+   • Dockerfile
+   • Build
+   • Run
+   • Port Mapping
+   • Environment Variables
+   • Volumes
+   • Networks
    • Logs
-   • Disk
-   • Memory
-   • Permissions
-   • Troubleshooting
+   • Docker Compose Basics
 
-22. JAVA INTERVIEW
-   • OOP
-   • Collections
-   • Exceptions
-   • Java 8
-   • Streams
-   • Multithreading
-
-23. SPRING BOOT INTERVIEW
-   • IoC
-   • DI
-   • Beans
-   • REST
-   • JPA
-   • Exception Handling
-   • Security
-   • JWT
-
-24. PRODUCTION SUPPORT INTERVIEW
-   • Incident
-   • SLA
-   • RCA
-   • Monitoring
-   • Troubleshooting
-   • Deployment
-   • Escalation
-   • Production Scenarios
-
-
-PHASE 15 — JOB APPLICATION
-------------------------------------------------------------
-
-25. JOB APPLICATIONS
-
-   TARGET ROLES:
-   • Production Support Engineer
-   • Application Support Engineer
-   • Java Application Support Engineer
-   • Java Production Support Engineer
-   • L2 Application Support
-   • Java Support Engineer
-   • Backend Support Engineer
-   • Technical Application Support
-   • Production Support – Java
-   • Application Support – Java
-   • SQL + Java Support
+COMMANDS:
+   • docker build
+   • docker run
+   • docker ps
+   • docker stop
+   • docker start
+   • docker logs
+   • docker exec
 
 ============================================================
 PRIORITY --> CREATE RESUME & INTERVIEW QUESTIONS PDF
 ============================================================
-
